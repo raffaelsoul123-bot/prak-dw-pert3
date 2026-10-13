@@ -1,0 +1,80 @@
+# Tugas Praktikum Pertemuan 3 - Desain Web
+
+**Nama:** Mukhamad Akbar Raffael Ridho
+**NPM:** 4525210085
+**Kelas:** A
+
+## Isi Tugas
+
+**Individu**
+1. Modifikasi Profil Pertemuan 3 dengan **10 property CSS inline** dan **4 format warna berbeda**.
+2. Membuat **Mini Style Guide**: 2 opsi font, warna utama, warna aksen, ukuran heading, dan line height.
+
+**Readme:** source code, hasil screenshot desktop/mobile, ringkasan kesimpulan 150-200 kata.
+
+## File
+
+| File | Keterangan |
+|---|---|
+| `src/index.html` | Halaman Profil Mahasiswa (sudah dimodifikasi, CSS inline) |
+| `img/` | Folder foto profil |
+| `screenshots/` | Hasil tampilan desktop dan mobile |
+
+## 10 Property CSS Inline yang Digunakan
+
+| No | Property | Contoh pemakaian |
+|---|---|---|
+| 1 | `font-family` | `'Segoe UI', sans-serif` (body), `'Georgia', serif` (heading) |
+| 2 | `color` | `#145b16` pada judul |
+| 3 | `background-color` | `#f4f4f4` pada body, `#ffffff` pada kartu utama |
+| 4 | `font-size` | `32px` (h1), `23px` (h2), `16px` (isi) |
+| 5 | `line-height` | `1.7` body, `1.8` paragraf/daftar |
+| 6 | `text-align` | `center` pada judul, `justify` pada paragraf |
+| 7 | `padding` | `30px` pada kontainer, `15px` pada footer |
+| 8 | `margin` | `20px auto` untuk menengahkan kontainer utama |
+| 9 | `border-radius` | `8px` kartu, `50%` foto profil |
+| 10 | `box-shadow` | `0 2px 5px rgba(0,0,0,0.1)` pada kartu |
+
+Property tambahan: `border`, `border-bottom`, `max-width`, `font-weight`, `letter-spacing`, `text-decoration`.
+
+## 4 Format Warna yang Digunakan
+
+| Format | Contoh | Dipakai untuk |
+|---|---|---|
+| Hex | `#145b16` | Warna utama: teks heading & garis bawah |
+| RGB | `rgb(255, 255, 255)` | Warna teks header & latar konten |
+| RGBA | `rgba(0,0,0,0.1)` | Efek bayangan kotak (*box-shadow*) |
+| Linear Gradient / Color Name | `linear-gradient(to right, #00d007, #144f16)` & `white` | Latar belakang header & warna dasar |
+
+## Mini Style Guide
+
+**Font**
+- Opsi A (sans-serif, isi/body): `'Segoe UI', Tahoma, Geneva, Verdana, sans-serif`
+- Opsi B (serif, heading alternatif): `'Georgia', serif`
+
+**Warna**
+- Utama: `#145b16` (hijau tua)
+- Aksen: `#00d007` (hijau terang)
+- Pendukung: `rgb(30, 30, 30)` dan `rgba(0,0,0,0.1)`
+
+**Ukuran heading dan line height**
+
+| Elemen | Ukuran | Line height |
+|---|---|---|
+| h1 | 32px | 1.3 |
+| h2 | 23px | 1.4 |
+| Paragraf | 16px | 1.7 |
+| Daftar | 16px | 1.8 |
+
+Rincian lengkap standar gaya di atas diterapkan secara langsung pada elemen-elemen di dalam halaman profil.
+
+## Screenshot
+
+### Halaman Profil
+| Desktop |
+|---|
+| ![Profil desktop](img/Output%20Profil.png) |
+
+## Ringkasan Kesimpulan
+
+Pada tugas ini saya memodifikasi halaman Profil Mahasiswa dengan CSS inline, yaitu atribut style yang ditulis langsung pada tiap elemen HTML. Saya memakai lebih dari sepuluh property CSS, di antaranya font-family, color, background-color, font-size, line-height, text-align, padding, margin, border-radius, border, box-shadow, dan max-width. Empat format warna yang berbeda juga saya gunakan, yaitu hex, rgb, rgba, dan gradasi, sehingga saya paham bahwa satu warna bisa ditulis dengan cara berbeda dan rgba memberi kontrol transparansi yang baik. Saya juga mendokumentasikan mini style guide di dalam README berisi dua opsi font, warna utama, warna aksen, ukuran heading, dan line height supaya tampilan halaman tetap konsisten. Dari sini saya belajar bahwa CSS inline mudah dipakai untuk latihan karena hasilnya langsung terlihat, tetapi kurang efisien untuk halaman besar sebab gaya harus diulang di banyak tempat. Karena itu file CSS terpisah atau eksternal lebih cocok untuk proyek nyata di masa depan. Halaman ini juga sudah saya sesuaikan struktur foldernya di dalam direktori `src/` serta diuji agar tetap rapi dan nyaman dibaca.
